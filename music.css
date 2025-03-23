@@ -20,17 +20,17 @@ body {
   justify-content: flex-start;
   height: 100%;
   width: 20%;
-  background-color:rgb(18, 116,76);
+  background-color:rgb(18, 116, 76) ;
   flex-direction: column;
-  gap: 5px;
-  font-size: 40px;
+  gap: 10px;
+  font-size: 20px;
   padding-left: 50px;
   padding-top: 50px;
 }
 
 button { 
-  gap: 30px;
-  font-size: 40px;
+  gap: 40px;
+  font-size: 30px;
   background-color: transparent;
   border: none;
 cursor: pointer;
@@ -52,7 +52,7 @@ button:hover{
   height: 150px;
   width: 150px;
   border-radius: 100px;
-  background-color:rgb(22, 134, 88);
+  background-color: blueviolet;
  background-image: url(Cross.webp);
  background-repeat: no-repeat;
  background-size: cover;
@@ -73,21 +73,21 @@ button:hover{
 } 
 
 .box1{ 
-  height: 28%;
+  height: 50%;
   width: 100%;
   display: flex;
-  background-color:rgb(22, 134, 88);
+  background-color: rgb(22, 134, 88) ;
   display: flex;
   justify-content: flex-end;
   align-items: center 
  }
 .textbox1{
   height: 80%;
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   background-color:rgb(22, 134, 88);
-  margin-right: 2%;
+  margin-right:3%;
   margin-left: 2%;
 }
 .head{
@@ -102,76 +102,36 @@ align-self: center;;
 display: flex;
 justify-self: start;
 font-size: 20px;
+align-self: start;
+flex-direction: column;
 }
 
 
-.box2 { 
-  height: 28%;
+.image1{
+height: 50%;
+width: 300px ;
+background-color: rgb(22, 134, 88);
+margin-right:50px;
+background-image:url(music1.jfif);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.box2{
+height: 50%;
   width: 100%;
-  background-color:rgb(22, 134, 88);
+  display: flex;
+  background-color:rgb(22, 134, 88) ;
   display: flex;
   justify-content: flex-end;
-  align-items: center ;
-}
-
+  align-items: center 
+ }
 .textbox2{
-    height: 80%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(22, 134, 88);
-    margin-right: 2%;
-    margin-left: 2%;
-  }
- 
-.box3{ 
-  height: 28%;
+  height: 100%;
   width: 100%;
-  display: flex;
-  background-color:rgb(22, 134, 88);
-  justify-content: flex-end;
-  align-items: center;
-
-}
-
-.textbox3{
-  height: 80%;
-  width: 90%;
   display: flex;
   flex-direction: column;
   background-color:rgb(22, 134, 88);
   margin-right: 2%;
   margin-left: 2%;
-}
-.image1{
-height: 100px;
-width: 200px ;
-background-color:rgb(22, 134, 88);
-margin-right:50px;
-background-image:url(key.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-size: contain;
-
-}
-
-.image2{
-   height: 100px;
-width: 200px ;
-background-color:rgb(22, 134, 88);
-margin-right:50px; 
-background-image: url(key2.jpg) ; 
-background-size: cover;  
-background-repeat:no-repeat ;
-background-size: contain;
-}
-.image3{
-  height: 100px;
-width: 200px ;
-background-color:rgb(22, 134, 88);
-margin-right:50px;  
-background-image: url(key3.jpg);
-background-size: cover;  
-background-repeat:no-repeat ;
-background-size: contain;
 }
